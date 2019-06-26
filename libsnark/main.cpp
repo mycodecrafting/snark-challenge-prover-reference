@@ -21,8 +21,8 @@
 using namespace libff;
 using namespace libsnark;
 
-const multi_exp_method method = multi_exp_method_BDLO12;
-// const multi_exp_method method = multi_exp_method_bos_coster;
+// const multi_exp_method method = multi_exp_method_BDLO12;
+const multi_exp_method method = multi_exp_method_bos_coster;
 
 template<typename ppT>
 class groth16_parameters {
